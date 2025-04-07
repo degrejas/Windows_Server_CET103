@@ -171,5 +171,6 @@ O computador irá **reiniciar** quando completar a instalação.
 ### Configurar o DNS
 
 **O que é o DNS**
+
 DNS é a sigla para **Domain Name System**, que significa Sistema de Nomes de Domínio. É um serviço que permite aos utilizadores acederem à internet através de nomes de domínio, como "google.com" em vez de memorizar IPs.
 
