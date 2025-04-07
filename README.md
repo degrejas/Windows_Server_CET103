@@ -9,15 +9,15 @@ Dentro do VitualBox, para criar uma máquina virtual de um Windows Server 2019, 
 
 De seguida teremos de dar um nome á máquina virtual, neste caso será **Maquina_de_teste** (1), escolher o local onde irá estar guardado o conteúdo da máquina virtual (2) e escolher o ficheiro .iso (3(imagem do sistema operativo escolhido)).
 
-![2](https://github.com/user-attachments/assets/2e333f71-f059-465d-933f-bccfa5885995)
+![2](https://github.com/user-attachments/assets/f4a731ac-4c74-454c-bc79-747efa0f25d0)
 
 Na secção do Hardware iremos configurar as especificações da máquina virtual, neste caso a máquina irá ter **7 gigabytes de memória** e **4 processadores**. Temos estes parâmetros para que a máquina não fique lenta.
 
-![3](https://github.com/user-attachments/assets/3eefc7c3-c324-440c-a584-d65993d784c5)
+![3](https://github.com/user-attachments/assets/e149f818-20b6-4740-93a4-35f699444995)
 
 Na secção Hard Disk iremos colocar o tamanho do disco pretendido (indicar quanto espaço queremos na nossa máquina). Para um bom funcionamento pelo menos **40 gigabytes** são necessários.
 
-![4](https://github.com/user-attachments/assets/7e944e74-a962-49d3-91ce-03e9ce8ba4cb)
+![4](https://github.com/user-attachments/assets/a3d36591-a80d-4adb-a226-a2cca9193a3b)
 
 De seguida clicamos em “Terminar” e a criação da máquina virtual estará completa.
 Para iniciar a máquina virtual clicar em “Iniciar”. A máquina irá iniciar.
