@@ -23,7 +23,7 @@ De seguida clicamos em “Terminar” e a criação da máquina virtual estará 
 Para iniciar a máquina virtual clicar em “Iniciar”. A máquina irá iniciar.
 De seguida será necessário configurar o sistema operativo escolhido, neste caso irá ser o Windows server 2019.
 
-###Instalação do Sistema Operativo
+### Instalação do Sistema Operativo
 
 ![5](https://github.com/user-attachments/assets/5a7485cc-a5c5-4e4b-a0e4-7ff99b9f3d53)
 
