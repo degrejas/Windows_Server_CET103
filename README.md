@@ -47,3 +47,19 @@ De seguida aceita-se os termos de licensa, escolhe-se a opção **custom: Instal
 Depois de instalar o sistema operativo será necessário **reiniciar** a máquina virtual.
 
 ![9](https://github.com/user-attachments/assets/4718da7e-069d-4468-8e5a-4a84d2c1955b)
+
+### Configurar o servidor
+
+Neste passo é necessário mudar o nome do servidor e atribuir um sufixo DNS.
+O nome será **Daniel** e o sufixo DNS será **pilao.pt**.
+
+![10](https://github.com/user-attachments/assets/216589ba-c71c-43c9-84f6-2176b58775a4)
+
+![11](https://github.com/user-attachments/assets/75e7985e-9c61-40c7-acef-735303f114f7)
+
+![12](https://github.com/user-attachments/assets/1065b87b-397c-4610-b9ff-5fd25c2ca337)
+
+![13](https://github.com/user-attachments/assets/6bad2a71-018b-43ac-8808-40f6c1a3b393)
+
+![14](https://github.com/user-attachments/assets/ee0f850e-ae2f-429b-83bb-ff38233224d2)
+
