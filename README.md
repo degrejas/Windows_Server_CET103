@@ -7,6 +7,7 @@ Manual de criação de um servidor Windows para CET103.
 
 - [Instalação do Sistema Operativo](#instalação-do-sistema-operativo)
 
+- [Configurar o servidor](#configurar-o-servidor)
 ## Manual passo a passo
 ### Criação de uma máquina virtual
 É necessário um software de virtualização para criar uma máquina virtual (virtual machine), neste caso irá ser utilizado o VirtualBox.
@@ -62,4 +63,8 @@ O nome será **Daniel** e o sufixo DNS será **pilao.pt**.
 ![13](https://github.com/user-attachments/assets/6bad2a71-018b-43ac-8808-40f6c1a3b393)
 
 ![14](https://github.com/user-attachments/assets/ee0f850e-ae2f-429b-83bb-ff38233224d2)
+
+### Atribuição de um IP na rede interna
+
+Neste passo irá ser atribuido um IP á minha rede interna, á rede interna irei mudar o nome para **Int** e para a rede externa irei mudar o nome para **Ext** para não se confudirem.
 
