@@ -69,5 +69,39 @@ O nome será **Daniel** e o sufixo DNS será **pilao.pt**.
 
 ### Atribuição de um IP na rede interna
 
-Neste passo irá ser atribuido um IP á minha rede interna, á rede interna irei mudar o nome para **Int** e para a rede externa irei mudar o nome para **Ext** para não se confudirem.
+Neste passo irá ser atribuído um IP fixo á minha rede interna, irei mudar o nome dos adaptadores para não se confundirem, á rede interna irei mudar o nome para **Int** e para a rede externa irei mudar o nome para **Ext**.
+
+![15](https://github.com/user-attachments/assets/a3e838af-cd4c-40c5-9adb-b462e8bdcf41)
+
+![16](https://github.com/user-attachments/assets/1c2f7a57-a302-40e3-8792-ac19b0f457a3)
+
+Irá agora ser atribuído um IP fixo á rede interna ao configurar o adaptador **Int**.
+Com o botão direito do rato, clicar em **Properties**, escolhendo a opção **Internet Protocol Version 4 (TCP/IPv4)** e de seguida **Properties** outravez.
+
+![17](https://github.com/user-attachments/assets/f3689f2a-66ac-4ee2-a88a-f8fe17821a2a)
+
+![18](https://github.com/user-attachments/assets/19f663e5-e9ad-4724-b9e3-bf4f1aa285be)
+
+Nesta janela irá ser necessário introduzir um **IP** e uma **Subnet mask** (irão ser atribuidos IPs ás máquinas que fazem parte da rede interna e que estiverem ligadas ao servidor).
+O IP escolhido será **192.168.1.200** e a Subnet mask **255.255.255.0**. Clicar em **Advanced**.
+
+![19](https://github.com/user-attachments/assets/2ef73984-f03e-4dc7-b855-7d32c1a65af4)
+
+Na opção **Interface Metric** irei colocar **1**, fazendo com que este adaptador tenha prioridade na ligação da máquina, e premir **Ok**.
+
+![20](https://github.com/user-attachments/assets/ee1092de-755f-42fb-9a44-a492cca3be13)
+
+Para o adaptador externo iremos só colocar no **Interface Metric** o número **20**.
+
+![21](https://github.com/user-attachments/assets/38c5061f-32a8-4c1b-a826-229942e40e0c)
+
+Para testar o funcionamento da configuração, abrir o **cmd**, e usamos o comando **ping**, iremos fazer ping ao IP escolhido anteriormente.
+
+![22](https://github.com/user-attachments/assets/6f8be303-8a6a-439b-9f5f-49be19599818)
+
+![23](https://github.com/user-attachments/assets/4d244562-0dcb-4e07-aa6a-c19bb4b15b50)
+
+Ao escrever **ipconfig** no cmd vejo as definições dos adaptadores de rede.
+
+![24](https://github.com/user-attachments/assets/ecaeaed8-1730-42af-946c-a665d8a65cdb)
 
