@@ -164,6 +164,7 @@ Na página seguinte escolhemos uma password para o **DSRM**, para que se necess�
 ![34](https://github.com/user-attachments/assets/4169580e-90da-489d-83aa-e2adac2351a8)
 
 Iremos clicar **Next** até aparecer a opção **Install**. Clicamos.
+O computador irá **reiniciar** quando completar a instalação.
 
 ![35](https://github.com/user-attachments/assets/aba00bba-5141-4cbb-a1c3-2539b8375cb1)
 
