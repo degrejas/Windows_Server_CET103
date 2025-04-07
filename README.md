@@ -8,6 +8,9 @@ Manual de criação de um servidor Windows para CET103.
 - [Instalação do Sistema Operativo](#instalação-do-sistema-operativo)
 
 - [Configurar o servidor](#configurar-o-servidor)
+
+- [Atribuição de um IP na rede interna](#atribuição-de-um-ip-na-rede-interna)
+
 ## Manual passo a passo
 ### Criação de uma máquina virtual
 É necessário um software de virtualização para criar uma máquina virtual (virtual machine), neste caso irá ser utilizado o VirtualBox.
