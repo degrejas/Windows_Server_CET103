@@ -11,6 +11,12 @@ Manual de criação de um servidor Windows para CET103.
 
 - [Atribuição de um IP na rede interna](#atribuição-de-um-ip-na-rede-interna)
 
+- [Instalação do Active Directory](#instalação-do-active-directory)
+
+- [Configuração do Domain Service](#configuração-do-domain-service)
+
+- [Configurar o DNS](#configurar-o-dns)
+
 ## Manual passo a passo
 ### Criação de uma máquina virtual
 É necessário um software de virtualização para criar uma máquina virtual (virtual machine), neste caso irá ser utilizado o VirtualBox.
@@ -104,4 +110,62 @@ Para testar o funcionamento da configuração, abrir o **cmd**, e usamos o coman
 Ao escrever **ipconfig** no cmd vejo as definições dos adaptadores de rede.
 
 ![24](https://github.com/user-attachments/assets/ecaeaed8-1730-42af-946c-a665d8a65cdb)
+
+### Instalação do Active Directory
+
+O **Active Directory (AD)** é um serviço de diretório da Microsoft que centraliza e organiza informações sobre recursos de rede. Ele é usado para gerir contas de usuário, computadores, impressoras e outros recursos. 
+O AD é usado em ambientes corporativos que utilizam sistemas operacionais Windows. 
+
+**Principais funcionalidades do AD**
+- Armazenar informações sobre objetos na rede, como usuários, computadores, impressoras e serviços
+- Fornecer uma estrutura hierárquica e lógica para organizar as informações de diretório
+- Controlar a autenticação e autorização de usuários e computadores
+- Fornecer políticas de segurança
+
+**Iremos agora configurar o AD**
+No canto superior direito iremos clicar na opção **Manage** e de seguida **Add Roles and Features**.
+
+![25](https://github.com/user-attachments/assets/24949837-75dd-40e0-8a60-01aa546b3298)
+
+Iremos **Next** até chegarmos á etapa **Server Selection**.
+
+![26](https://github.com/user-attachments/assets/cbb98f06-ec80-4667-9bd8-1b89a62b227c)
+
+Escolhemos o servidor desejado, que irá funcionar como controlador de dominio (neste caso iremos ter só uma opção). Clicamos **Next**.
+
+![27](https://github.com/user-attachments/assets/422a0a36-1b94-4bf7-9458-01ce4f271d28)
+
+No passo seguinte escolhemos a opção **Active Directory Domain Services**. Continuamos com a instalação.
+
+![28](https://github.com/user-attachments/assets/6e18a948-fbeb-4abc-bcae-fb634e4e2dc2)
+
+![29](https://github.com/user-attachments/assets/1a76edbb-57bc-4144-82d9-0ec74d346d32)
+
+![30](https://github.com/user-attachments/assets/3978a1ab-83ec-4d45-ab8f-13937189f7f7)
+
+No final da instalação será necessário **reiniciar**.
+
+### Configuração do Domain Service
+
+Na secção **AD DS** no Server Manager irá ter um alerta para configurar o Domain Service. Clicamos na opção **More...**.
+
+![31](https://github.com/user-attachments/assets/cf7d010e-ecb9-47dd-9626-493592ddea9d)
+
+Iremos escolher a opção sobrelinhada.
+
+![32](https://github.com/user-attachments/assets/d1652574-74e3-458d-bcc5-c35f188fad61)
+
+Escolhemos a opção **Add a new forest** com o Root domain name **pilao.pt**.
+
+![33](https://github.com/user-attachments/assets/e774bccd-c211-4b87-a4e8-ec7e8989a149)
+
+Na página seguinte escolhemos uma password para o **DSRM**, para que se necessário haja a **manutenção** e **recuperação** da base de dados do **AD**. E clicamos **Next**.
+
+![34](https://github.com/user-attachments/assets/4169580e-90da-489d-83aa-e2adac2351a8)
+
+Iremos clicar **Next** até aparecer a opção **Install**. Clicamos.
+
+![35](https://github.com/user-attachments/assets/aba00bba-5141-4cbb-a1c3-2539b8375cb1)
+
+### Configurar o DNS
 
