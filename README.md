@@ -22,7 +22,7 @@ Manual de criação de um servidor Windows para CET103.
 É necessário um software de virtualização para criar uma máquina virtual (virtual machine), neste caso irá ser utilizado o VirtualBox.
 Dentro do VitualBox, para criar uma máquina virtual de um Windows Server 2019, clicar na opção **Nova**.
 
-![1](https://github.com/user-attachments/assets/f40f3819-7004-4148-88dc-5de90f4ec8a5)
+![1](https://github.com/user-attachments/assets/f40f3819-7004-4148-88dc-5de90f4ec8a5 =250x250)
 
 De seguida teremos de dar um nome á máquina virtual, neste caso será **Maquina_de_teste** (1), escolher o local onde irá estar guardado o conteúdo da máquina virtual (2) e escolher o ficheiro .iso (3(imagem do sistema operativo escolhido)).
 
