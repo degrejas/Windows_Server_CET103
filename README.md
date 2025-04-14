@@ -9,6 +9,10 @@ Manual de criação de um servidor Windows para CET103.
 
 - [Configurar o servidor](#configurar-o-servidor)
 
+- [Configuração RAID](#configuração-raid)
+
+- [Configuração do servidor](#configuração-do-servidor)
+
 - [Atribuição de um IP na rede interna](#atribuição-de-um-ip-na-rede-interna)
 
 - [Instalação do Active Directory](#instalação-do-active-directory)
@@ -58,11 +62,12 @@ Depois de instalar o sistema operativo será necessário **reiniciar** a máquin
 
 <img src="https://github.com/user-attachments/assets/4718da7e-069d-4468-8e5a-4a84d2c1955b" width="650">
 
-### Configurar o servidor
+## Configurar o servidor
 
-## Configuração RAID
+### Configuração RAID
 
-## Configuração do servidor
+
+### Configuração do servidor
 
 Neste passo é necessário mudar o nome do servidor e atribuir um sufixo DNS.
 O nome será **Daniel** e o sufixo DNS será **pilao.pt**.
