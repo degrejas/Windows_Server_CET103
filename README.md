@@ -1,7 +1,7 @@
 # Windows_Server_103
 Manual de criação de um servidor Windows para CET103.
 # Índice
-[Manual](#passo-a-passo)
+[Manual](#manual)
 
 - [Criação de uma máquina virtual](#criação-de-uma-máquina-virtual)
 
