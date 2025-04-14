@@ -180,39 +180,37 @@ DNS é a sigla para **Domain Name System**, que significa Sistema de Nomes de Do
 
 Para configurar o DNS, no server manager na opção tools escolher a opção **DNS** para abrir o **DNS Manager**.
 
-![36](https://github.com/user-attachments/assets/e4f68c93-f274-4c42-a33b-e66f0ea432d9)
+<img src="https://github.com/user-attachments/assets/e4f68c93-f274-4c42-a33b-e66f0ea432d9" width="650">
 
 No painel, clicar com o botão direito do rato na opção **Reverse Lookup Zones** selecionando a opção **New Zone**.
 
-![37](https://github.com/user-attachments/assets/8a695ce2-3c2d-41fb-b5d7-4c9374f42725)
+<img src="https://github.com/user-attachments/assets/8a695ce2-3c2d-41fb-b5d7-4c9374f42725" width="650">
 
 Irá aparecer a janela do setup, escolher a opção **Next**, de seguida escolher a opção **Primary zone**, esta opção faz com que este servidor DNS seja responsável por manter e gerir de forma principal, armazenando os registos DNS. Clicamos **Next**.
 
-![38](https://github.com/user-attachments/assets/820c11df-bc65-45b9-a608-ebbedc284fe5)
+<img src="https://github.com/user-attachments/assets/820c11df-bc65-45b9-a608-ebbedc284fe5" width="650">
 
 Escolhemos a opção **To all DNS servers running on domain controllers in this domain: pilao.pt**, para replicar a zona de DNS apenas para os servidores DNS que estão a executar controladores de domínio dentro do domínio **pilao.pt**, clicamos **Next** e na próxima etapa escolhemos a opção **IPv4 Reverse Lookup Zone**, clicamos **Next**.
 
-![39](https://github.com/user-attachments/assets/dd057318-ce2c-4e32-b43c-b1ff0b26e21b)
+<img src="https://github.com/user-attachments/assets/dd057318-ce2c-4e32-b43c-b1ff0b26e21b" width="650">
 
-![40](https://github.com/user-attachments/assets/13131ddc-027f-41f9-ab56-70a05cc6df9d)
+<img src="https://github.com/user-attachments/assets/13131ddc-027f-41f9-ab56-70a05cc6df9d" width="650">
 
 Coloquei o endereço IP da rede interna, que será **192.168.1**, e cliquei **Next**.
 
-![41](https://github.com/user-attachments/assets/a68f0df0-96a6-4cdc-96a8-3f29762c6372)
+<img src="https://github.com/user-attachments/assets/a68f0df0-96a6-4cdc-96a8-3f29762c6372" width="650">
 
 Escolher a opção **Allow only secure dynamic updates**, clicamos **Nex** e damos por terminado o setup.
+<img src="https://github.com/user-attachments/assets/fbcb407e-4743-4e4c-9e2d-3f692cc9f12a" width="650">
 
-![42](https://github.com/user-attachments/assets/fbcb407e-4743-4e4c-9e2d-3f692cc9f12a)
-
-![43](https://github.com/user-attachments/assets/c20e729e-7824-4105-8718-ac80253394d3)
+<img src="https://github.com/user-attachments/assets/c20e729e-7824-4105-8718-ac80253394d3" width="650">
 
 Para concluir a configuração do Reverse Lookup é preciso criar um novo **Pointer** e indicar que o meu servidor é aquele que faça a conversão, indicando o **host**.
+<img src="https://github.com/user-attachments/assets/d3262894-54b2-4d4e-98dd-7f0b612aad2b" width="650">
 
-![44](https://github.com/user-attachments/assets/d3262894-54b2-4d4e-98dd-7f0b612aad2b)
+<img src="https://github.com/user-attachments/assets/38af1bef-bf68-4529-8a1e-fb2429ebe251" width="650">
 
-![45](https://github.com/user-attachments/assets/38af1bef-bf68-4529-8a1e-fb2429ebe251)
-
-![46](https://github.com/user-attachments/assets/80d45ae2-be7f-4f7b-9fa6-22d458d3dadd)
+<img src="https://github.com/user-attachments/assets/80d45ae2-be7f-4f7b-9fa6-22d458d3dadd" width="650">
 
 Testar o foward lookup e o reverse lookup para confirmar se o servidor está a fazer a correta conversão.
 
