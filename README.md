@@ -81,39 +81,39 @@ O nome será **Daniel** e o sufixo DNS será **pilao.pt**.
 
 Neste passo irá ser atribuído um IP fixo á minha rede interna, irei mudar o nome dos adaptadores para não se confundirem, á rede interna irei mudar o nome para **Int** e para a rede externa irei mudar o nome para **Ext**.
 
-![15](https://github.com/user-attachments/assets/a3e838af-cd4c-40c5-9adb-b462e8bdcf41)
+<img src="https://github.com/user-attachments/assets/a3e838af-cd4c-40c5-9adb-b462e8bdcf41" width="650">
 
-![16](https://github.com/user-attachments/assets/1c2f7a57-a302-40e3-8792-ac19b0f457a3)
+<img src="https://github.com/user-attachments/assets/1c2f7a57-a302-40e3-8792-ac19b0f457a3" width="650">
 
 Irá agora ser atribuído um IP fixo á rede interna ao configurar o adaptador **Int**.
 Com o botão direito do rato, clicar em **Properties**, escolhendo a opção **Internet Protocol Version 4 (TCP/IPv4)** e de seguida **Properties** outravez.
 
-![17](https://github.com/user-attachments/assets/f3689f2a-66ac-4ee2-a88a-f8fe17821a2a)
+<img src="https://github.com/user-attachments/assets/f3689f2a-66ac-4ee2-a88a-f8fe17821a2a" width="650">
 
-![18](https://github.com/user-attachments/assets/19f663e5-e9ad-4724-b9e3-bf4f1aa285be)
+<img src="https://github.com/user-attachments/assets/19f663e5-e9ad-4724-b9e3-bf4f1aa285be" width="650">
 
 Nesta janela irá ser necessário introduzir um **IP** e uma **Subnet mask** (irão ser atribuidos IPs ás máquinas que fazem parte da rede interna e que estiverem ligadas ao servidor).
 O IP escolhido será **192.168.1.200** e a Subnet mask **255.255.255.0**. Clicar em **Advanced**.
 
-![19](https://github.com/user-attachments/assets/2ef73984-f03e-4dc7-b855-7d32c1a65af4)
+<img src="https://github.com/user-attachments/assets/2ef73984-f03e-4dc7-b855-7d32c1a65af4" width="650">
 
 Na opção **Interface Metric** irei colocar **1**, fazendo com que este adaptador tenha prioridade na ligação da máquina, e premir **Ok**.
 
-![20](https://github.com/user-attachments/assets/ee1092de-755f-42fb-9a44-a492cca3be13)
+<img src="https://github.com/user-attachments/assets/ee1092de-755f-42fb-9a44-a492cca3be13" width="650">
 
 Para o adaptador externo iremos só colocar no **Interface Metric** o número **20**.
 
-![21](https://github.com/user-attachments/assets/38c5061f-32a8-4c1b-a826-229942e40e0c)
+<img src="https://github.com/user-attachments/assets/38c5061f-32a8-4c1b-a826-229942e40e0c" width="650">
 
 Para testar o funcionamento da configuração, abrir o **cmd**, e usamos o comando **ping**, iremos fazer ping ao IP escolhido anteriormente.
 
-![22](https://github.com/user-attachments/assets/6f8be303-8a6a-439b-9f5f-49be19599818)
+<img src="https://github.com/user-attachments/assets/6f8be303-8a6a-439b-9f5f-49be19599818" width="650">
 
-![23](https://github.com/user-attachments/assets/4d244562-0dcb-4e07-aa6a-c19bb4b15b50)
+<img src="https://github.com/user-attachments/assets/4d244562-0dcb-4e07-aa6a-c19bb4b15b50" width="650">
 
 Ao escrever **ipconfig** no cmd vejo as definições dos adaptadores de rede.
 
-![24](https://github.com/user-attachments/assets/ecaeaed8-1730-42af-946c-a665d8a65cdb)
+<img src="https://github.com/user-attachments/assets/ecaeaed8-1730-42af-946c-a665d8a65cdb" width="650">
 
 ### Instalação do Active Directory
 
@@ -129,23 +129,23 @@ O AD é usado em ambientes corporativos que utilizam sistemas operacionais Windo
 **Iremos agora configurar o AD**
 No canto superior direito iremos clicar na opção **Manage** e de seguida **Add Roles and Features**.
 
-![25](https://github.com/user-attachments/assets/24949837-75dd-40e0-8a60-01aa546b3298)
+<img src="https://github.com/user-attachments/assets/24949837-75dd-40e0-8a60-01aa546b3298" width="650">
 
 Iremos **Next** até chegarmos á etapa **Server Selection**.
 
-![26](https://github.com/user-attachments/assets/cbb98f06-ec80-4667-9bd8-1b89a62b227c)
+<img src="https://github.com/user-attachments/assets/cbb98f06-ec80-4667-9bd8-1b89a62b227c" width="650">
 
 Escolhemos o servidor desejado, que irá funcionar como controlador de dominio (neste caso iremos ter só uma opção). Clicamos **Next**.
 
-![27](https://github.com/user-attachments/assets/422a0a36-1b94-4bf7-9458-01ce4f271d28)
+<img src="https://github.com/user-attachments/assets/422a0a36-1b94-4bf7-9458-01ce4f271d28" width="650">
 
 No passo seguinte escolhemos a opção **Active Directory Domain Services**. Continuamos com a instalação.
 
-![28](https://github.com/user-attachments/assets/6e18a948-fbeb-4abc-bcae-fb634e4e2dc2)
+<img src="https://github.com/user-attachments/assets/6e18a948-fbeb-4abc-bcae-fb634e4e2dc2" width="650">
 
-![29](https://github.com/user-attachments/assets/1a76edbb-57bc-4144-82d9-0ec74d346d32)
+<img src="https://github.com/user-attachments/assets/1a76edbb-57bc-4144-82d9-0ec74d346d32" width="650">
 
-![30](https://github.com/user-attachments/assets/3978a1ab-83ec-4d45-ab8f-13937189f7f7)
+<img src="https://github.com/user-attachments/assets/3978a1ab-83ec-4d45-ab8f-13937189f7f7" width="650">
 
 No final da instalação será necessário **reiniciar**.
 
@@ -153,24 +153,24 @@ No final da instalação será necessário **reiniciar**.
 
 Na secção **AD DS** no Server Manager irá ter um alerta para configurar o Domain Service. Clicamos na opção **More...**.
 
-![31](https://github.com/user-attachments/assets/cf7d010e-ecb9-47dd-9626-493592ddea9d)
+<img src="https://github.com/user-attachments/assets/cf7d010e-ecb9-47dd-9626-493592ddea9d" width="650">
 
 Iremos escolher a opção sobrelinhada.
 
-![32](https://github.com/user-attachments/assets/d1652574-74e3-458d-bcc5-c35f188fad61)
+<img src="https://github.com/user-attachments/assets/d1652574-74e3-458d-bcc5-c35f188fad61" width="650">
 
 Escolhemos a opção **Add a new forest** com o Root domain name **pilao.pt**.
 
-![33](https://github.com/user-attachments/assets/e774bccd-c211-4b87-a4e8-ec7e8989a149)
+<img src="https://github.com/user-attachments/assets/e774bccd-c211-4b87-a4e8-ec7e8989a149" width="650">
 
 Na página seguinte escolhemos uma password para o **DSRM**, para que se necessário haja a **manutenção** e **recuperação** da base de dados do **AD**. E clicamos **Next**.
 
-![34](https://github.com/user-attachments/assets/4169580e-90da-489d-83aa-e2adac2351a8)
+<img src="https://github.com/user-attachments/assets/4169580e-90da-489d-83aa-e2adac2351a8" width="650">
 
 Iremos clicar **Next** até aparecer a opção **Install**. Clicamos.
 O computador irá **reiniciar** quando completar a instalação.
 
-![35](https://github.com/user-attachments/assets/aba00bba-5141-4cbb-a1c3-2539b8375cb1)
+<img src="https://github.com/user-attachments/assets/aba00bba-5141-4cbb-a1c3-2539b8375cb1" width="650">
 
 ### Configurar o DNS
 
