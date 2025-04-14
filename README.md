@@ -64,6 +64,7 @@ Neste passo é necessário mudar o nome do servidor e atribuir um sufixo DNS.
 O nome será **Daniel** e o sufixo DNS será **pilao.pt**.
 
 <img src="https://github.com/user-attachments/assets/216589ba-c71c-43c9-84f6-2176b58775a4" width="48">
+
 ![10](https://github.com/user-attachments/assets/216589ba-c71c-43c9-84f6-2176b58775a4)
 
 ![11](https://github.com/user-attachments/assets/75e7985e-9c61-40c7-acef-735303f114f7)
