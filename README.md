@@ -60,6 +60,10 @@ Depois de instalar o sistema operativo será necessário **reiniciar** a máquin
 
 ### Configurar o servidor
 
+## Configuração RAID
+
+## Configuração do servidor
+
 Neste passo é necessário mudar o nome do servidor e atribuir um sufixo DNS.
 O nome será **Daniel** e o sufixo DNS será **pilao.pt**.
 
