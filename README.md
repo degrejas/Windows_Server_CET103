@@ -21,6 +21,8 @@ Manual de criação de um servidor Windows para CET103.
 
 - [Configurar o DNS](#configurar-o-dns)
 
+- [Instalação e configuração do DHCP](#Instalação-e-configuração-do-DHCP)
+
 ## Manual
 ### Criação de uma máquina virtual
 É necessário um software de virtualização para criar uma máquina virtual (virtual machine), neste caso irá ser utilizado o VirtualBox.
