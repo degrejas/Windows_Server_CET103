@@ -85,9 +85,29 @@ Iremos para **Storage** e em seguida **Disk Management**, onde conseguimos ver a
 
 <img src="https://github.com/user-attachments/assets/39f9a2a7-6e98-4f3e-b12b-c67887b151d3" width="650">
 
-Nos discos não inicializados clicamos 
+Nos discos não inicializados clicamos com o botão direito do rato e escolhemos a opção **Online**. Fazemos o mesmo para os restantes discos que se encontram offline.
 
+<img src="https://github.com/user-attachments/assets/c5bf4828-3d79-4200-8cbf-0b9a580d611a" width="650">
 
+De seguida com o botão direito do rato clicamos no disco e escolhemos a opção **Initialize Disk**, selecionamos todos os discos e a opção **GPT (GUID Partition Table)**.
+
+<img src="https://github.com/user-attachments/assets/d7f87fb4-d9ba-4033-9f35-aabb75955efb" width="650">
+
+<img src="https://github.com/user-attachments/assets/9fa29599-0fa3-40f5-8413-09d56f2fb6d3" width="650">
+
+Com o botão direito do rato clicamos num disco não alocado e escolhemos a opção **Convert to Dynamic Disk**, selcionamos os discos e clicamos **Ok**.
+
+<img src="https://github.com/user-attachments/assets/c495e2a9-48a0-4d03-9ec8-1a0c74595111" width="650">
+
+<img src="https://github.com/user-attachments/assets/a144fefe-7d05-4e0c-81a0-c017f6f78867" width="650">
+
+Com obotão direito do rato cliamos sobre um dos discos e escolhemos a opção **New RAID-5 Volume...** para inicar o assistente.
+
+<img src="https://github.com/user-attachments/assets/53e996b5-0641-4fc7-bc70-1ac257550d86" width="650">
+
+Iremos agora esxcolher os discos que queremos que façam parte do RAID, selcionamos os discos e clicamos **Next**.
+
+<img src="https://github.com/user-attachments/assets/53e996b5-0641-4fc7-bc70-1ac257550d86" width="650"
 
 ### Configuração do servidor
 
