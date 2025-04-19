@@ -106,8 +106,17 @@ Com obotão direito do rato cliamos sobre um dos discos e escolhemos a opção *
 <img src="https://github.com/user-attachments/assets/53e996b5-0641-4fc7-bc70-1ac257550d86" width="650">
 
 Iremos agora esxcolher os discos que queremos que façam parte do RAID, selcionamos os discos e clicamos **Next**.
+E de seguida escolhemos a letra do novo volume.
 
-<img src="https://github.com/user-attachments/assets/53e996b5-0641-4fc7-bc70-1ac257550d86" width="650"
+<img src="https://github.com/user-attachments/assets/53201ea4-2c2b-425f-83b9-7070dec11889" width="650">
+
+<img src="https://github.com/user-attachments/assets/c85d9798-02a9-4ad2-bafc-fa14de43e944" width="650">
+
+Definimos as opções de formatação, no final o volume RAID 5 irá ser entrar no processo de formatação e sincronização.
+
+<img src="https://github.com/user-attachments/assets/ec23e9cf-248b-4056-bb67-f2ad3beee330" width="650">
+
+<img src="https://github.com/user-attachments/assets/7ed88b89-2f17-4621-b485-ce9e9eea611c" width="650">
 
 ### Configuração do servidor
 
