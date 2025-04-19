@@ -64,7 +64,29 @@ Depois de instalar o sistema operativo será necessário **reiniciar** a máquin
 
 ## Configurar o servidor
 
-### Configuração RAID
+### Configuração RAID 5
+
+**RAID 5** é uma tecnologia de armazenamento que junta vários discos rígidos (HDDs ou SSDs) para funcionarem como um só sistema. Este tipo de RAID oferece desempenho, capacidade de armazenamento e tolerância a falhas.
+
+Antes de se iniciar a máquina virtual, vamos a **armazenamento**, clicamos no ícone com um mais e escolhemos **Add SCSI Controller**.
+
+<img src="https://github.com/user-attachments/assets/bfe74f84-3689-40f2-9434-8ffe003fbf82" width="650">
+
+Clicamos em **Add Hard Disk**, e escolhemos **Create new disk**.
+
+<img src="https://github.com/user-attachments/assets/684e5d8c-8937-49b8-94ea-61d2052f087b" width="650">
+
+<img src="https://github.com/user-attachments/assets/b720a12f-9492-425f-bbbe-51aac99909f3" width="650">
+
+<img src="https://github.com/user-attachments/assets/7deff27d-340d-4c53-b837-1ccc4d335e34" width="650">
+
+De seguida iniciamos a máquina virtual. No server manager clicamos em **Tools** e de seguida **Computer Management**.
+Iremos para **Storage** e em seguida **Disk Management**, onde conseguimos ver as partições.
+
+<img src="https://github.com/user-attachments/assets/39f9a2a7-6e98-4f3e-b12b-c67887b151d3" width="650">
+
+Nos discos não inicializados clicamos 
+
 
 
 ### Configuração do servidor
@@ -135,7 +157,7 @@ O AD é usado em ambientes corporativos que utilizam sistemas operacionais Windo
 - Controlar a autenticação e autorização de usuários e computadores
 - Fornecer políticas de segurança
 
-**Iremos agora configurar o AD**
+**Configurar o AD**
 No canto superior direito iremos clicar na opção **Manage** e de seguida **Add Roles and Features**.
 
 <img src="https://github.com/user-attachments/assets/24949837-75dd-40e0-8a60-01aa546b3298" width="650">
@@ -222,4 +244,6 @@ Para concluir a configuração do Reverse Lookup é preciso criar um novo **Poin
 <img src="https://github.com/user-attachments/assets/80d45ae2-be7f-4f7b-9fa6-22d458d3dadd" width="650">
 
 Testar o foward lookup e o reverse lookup para confirmar se o servidor está a fazer a correta conversão.
+
+### Instalação e configuração do DHCP
 
