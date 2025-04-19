@@ -56,7 +56,7 @@ Durante o setup irão aparecer várias opções, mas a que é preciso é a opç�
 
 De seguida aceita-se os termos de licensa, escolhe-se a opção **custom: Install Windows only (advanced)** e escolhemos a **drive** desejada onde queremos **instalar o sistema operativo**. E será instalado o sistema operativo.
 
-<img src="https://github.com/user-attachments/assets/be731e0d-1ee3-4016-8c4c-f0ab6f25670e" width="650">
+<img src="https://github.com/user-attachments/assets/2556019d-e3ef-4387-a0ab-17e31fde149d" width="650">
 
 Depois de instalar o sistema operativo será necessário **reiniciar** a máquina virtual.
 
