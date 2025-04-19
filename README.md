@@ -9,7 +9,7 @@ Manual de criação de um servidor Windows para CET103.
 
 - [Configurar o servidor](#configurar-o-servidor)
 
-- [Configuração RAID](#configuração-raid)
+- [Configuração RAID 5](#configuração-raid-5)
 
 - [Configuração do servidor](#configuração-do-servidor)
 
@@ -22,6 +22,8 @@ Manual de criação de um servidor Windows para CET103.
 - [Configurar o DNS](#configurar-o-dns)
 
 - [Instalação e configuração do DHCP](#Instalação-e-configuração-do-DHCP)
+
+- [NIC Teaming](#NIC-Teaming)
 
 ## Manual
 ### Criação de uma máquina virtual
@@ -126,8 +128,6 @@ Neste passo é necessário mudar o nome do servidor e atribuir um sufixo DNS.
 O nome será **Daniel** e o sufixo DNS será **pilao.pt**.
 
 <img src="https://github.com/user-attachments/assets/216589ba-c71c-43c9-84f6-2176b58775a4" width="650">
-
-<img src="https://github.com/user-attachments/assets/75e7985e-9c61-40c7-acef-735303f114f7" width="650">
 
 <img src="https://github.com/user-attachments/assets/75e7985e-9c61-40c7-acef-735303f114f7" width="650">
 
@@ -277,4 +277,85 @@ Para concluir a configuração do Reverse Lookup é preciso criar um novo **Poin
 Testar o foward lookup e o reverse lookup para confirmar se o servidor está a fazer a correta conversão.
 
 ### Instalação e configuração do DHCP
+
+Para começar-mos a instalação e configuração do DHCP clicamos no **Manage** e de seguida **Add Roles and Features**.
+
+<img src="https://github.com/user-attachments/assets/3e7dd452-0461-4baf-a880-bbe1fc3292b1" width="650">
+
+Na instalação escolhemos a opção **DHCP Server** e clicamos **Next** até o botão **Install** fique ativo, instalamos.
+
+<img src="https://github.com/user-attachments/assets/aebcb661-6a49-4099-a9f6-a1b653783b0b" width="650">
+
+<img src="https://github.com/user-attachments/assets/04cc7cc0-6212-49c4-89ad-42b993e44e96" width="650">
+
+Depois da instalação aparece um aviso no Server Manager, o DHCP precisa de ser configurado.
+
+<img src="https://github.com/user-attachments/assets/c8c41fce-4a77-44a7-bca2-5251f61b02bb" width="650">
+
+<img src="https://github.com/user-attachments/assets/91c4d3ce-35dd-451b-bffe-78aba7558a43" width="650">
+
+<img src="https://github.com/user-attachments/assets/9133bfd1-1fcb-42a5-8cb2-48ffde36016c" width="650">
+
+<img src="https://github.com/user-attachments/assets/df77207e-32f0-4085-b778-e1128f60e0f0" width="650">
+
+Para criar um scope DHCP selecionamos **Tools**, clicamos em **DHCP**, no painel da esquerda clicamos com o botão direito do rato em cima do **IPv4** e clicamos em **New Scope...**, iniciando o Wizard.
+
+<img src="https://github.com/user-attachments/assets/503e3443-e566-4f18-913b-8eb9d1f141a7" width="650">
+
+<img src="https://github.com/user-attachments/assets/a8b8daa5-8acf-4c15-a13b-e7ff72c1ab7c" width="650">
+
+O nome e a descrição será **"Aulas"**, clicamos **Next**.
+
+<img src="https://github.com/user-attachments/assets/7fda55ae-696b-4769-9aa4-4fc741f988b6" width="650">
+
+Indicamos os intervalos de endereços de IP.
+
+<img src="https://github.com/user-attachments/assets/e2bfe75a-b4d6-4735-bd23-536ae811aa71" width="650">
+
+Definimos agora IPs dentro de um intervalo que não queremos que sejam atribuídos automaticamente, clicamos **Next**.
+
+<img src="https://github.com/user-attachments/assets/c43cfd38-ca3a-4a7b-a6f0-6792a0422387" width="650">
+
+Escohemos a opção **Yes, I want to configure these options now**.
+
+<img src="https://github.com/user-attachments/assets/c6830777-5ada-4890-91e7-00ae6ff1a6d7" width="650">
+
+De seguida indicamos o endereço de IP do nosso servidor, sendo esse o dispositivo que faz a ligação á rede.
+Neste caso será **192.168.1.200**
+Clicamos em **Add** e de seguida **Next**.
+
+<img src="https://github.com/user-attachments/assets/2fc95291-0719-47c0-984e-204522c08eda" width="650">
+
+Clicamos **Next** até aparecer para escolhermos umas das opções, escolhemos a opção **Yes, I want to activate this scope now**.
+
+<img src="https://github.com/user-attachments/assets/ebd9c945-14d7-4deb-9c9b-9471bbd691ba" width="650">
+
+### NIC Teaming
+
+NIC Teaming é uma técnica usada para combinar duas ou mais placas de rede físicas num único interface lógico.
+
+Fora da máquina virtual adicionamos mais 2 placas de rede.
+
+<img src="https://github.com/user-attachments/assets/da27e054-f0e3-49c6-b65e-6818c97cd8bf" width="650">
+
+Dentro da máquina virtual mudei o nome das placas para as identificar mais facilmente.
+
+<img src="https://github.com/user-attachments/assets/eb916e16-4506-4a0d-b65b-d4cfdc9452a3" width="650">
+
+No Server Manager clicamos na opção **Disabled** á frente de **NIC Teaming**.
+
+<img src="https://github.com/user-attachments/assets/3322dcef-2363-42e1-ab34-7e2302026ace" width="650">
+
+Em cima de uma das placas clicamos com o botão direito e escolhemos a opção **Add to New Team**.
+
+<img src="https://github.com/user-attachments/assets/901f0f4e-48c8-4d4d-bf0a-b860d5f3a88f" width="650">
+
+Escolhemos o **Team name**, escolhemos as placas, escolhemos **Aditional Properties** e de seguida **Next**.
+
+<img src="https://github.com/user-attachments/assets/73907da8-a872-4e83-b125-a0da5d60f3a4" width="650">
+
+E fazemos o mesmo para a rede interna.
+
+
+
 
