@@ -25,6 +25,8 @@ Manual de criação de um servidor Windows para CET103.
 
 - [NIC Teaming](#NIC-Teaming)
 
+- [Windows Server Backup](#Windows-Server-Backup)
+
 ## Manual
 ### Criação de uma máquina virtual
 É necessário um software de virtualização para criar uma máquina virtual (virtual machine), neste caso irá ser utilizado o VirtualBox.
@@ -356,7 +358,7 @@ Escolhemos o **Team name**, escolhemos as placas, escolhemos **Aditional Propert
 
 E fazemos o mesmo para a rede interna.
 
-### Server Backup
+### Windows Server Backup
 
 Para instalar o **Windows Server Backup** clicamos em **Manage** e de seguida em **Add Roles and Features**.
 
