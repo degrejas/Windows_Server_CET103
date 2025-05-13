@@ -356,6 +356,23 @@ Escolhemos o **Team name**, escolhemos as placas, escolhemos **Aditional Propert
 
 E fazemos o mesmo para a rede interna.
 
+### Server Backup
 
+Para instalar o **Windows Server Backup** clicamos em **Manage** e de seguida em **Add Roles and Features**.
 
+<img src="https://github.com/user-attachments/assets/975a467c-f068-4228-9339-5da1992af002" width="650">
+
+Avançamos até **Features** e selecionamos **Windows Server Backup**, clicamos em **Install**.
+
+<img src="https://github.com/user-attachments/assets/33265267-dc4b-4993-8fb3-75b2297da9d7" width="650">
+
+Para criar o agendamento do Backup clicamos em **Tools** e de seguida **Windows Server Backup**.
+
+<img src="https://github.com/user-attachments/assets/c57418a3-7afa-4166-b9e1-7567ab20a346" width="650">
+
+Na próxima janela, na parte esquerda da janela, clicamos em **Local Backup** e na parte direita iniciamos o Wizard ao clicar **Backup Schedule...**.
+
+<img src="https://github.com/user-attachments/assets/be91cac8-2ad8-431f-baf9-fb2751b7acd2" width="650">
+
+<img src="https://github.com/user-attachments/assets/61a3cdcc-39be-4686-aa13-b9b91418f66a" width="650">
 
