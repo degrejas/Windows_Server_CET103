@@ -27,6 +27,8 @@ Manual de criação de um servidor Windows para CET103.
 
 - [Windows Server Backup](#Windows-Server-Backup)
 
+- [Active Directory](#Active-Directory)
+
 ## Manual
 ### Criação de uma máquina virtual
 É necessário um software de virtualização para criar uma máquina virtual (virtual machine), neste caso irá ser utilizado o VirtualBox.
@@ -377,4 +379,48 @@ Na próxima janela, na parte esquerda da janela, clicamos em **Local Backup** e 
 <img src="https://github.com/user-attachments/assets/be91cac8-2ad8-431f-baf9-fb2751b7acd2" width="650">
 
 <img src="https://github.com/user-attachments/assets/61a3cdcc-39be-4686-aa13-b9b91418f66a" width="650">
+
+Concluido o Wizard irá estar concluida a instalação do **Windows Server Backup**.
+
+### Active Directory
+
+Clicamos em **Tools**, **Active Directory Users and Computers**.
+
+<img src="https://github.com/user-attachments/assets/f55bff74-691e-42ec-a119-b23e264ebb41" width="650">
+
+De seguida com o botão direito clicar em **pilao.pt**.
+
+<img src="https://github.com/user-attachments/assets/fa9b5cfa-5957-49c0-8763-e10c5df53c39" width="650">
+
+Criamos duas pastas, **Cinel_Lisboa** e **Cinel_Porto**.
+
+<img src="https://github.com/user-attachments/assets/39f4b03b-f4d0-4576-88cb-032e8f0b1d55" width="650">
+
+Dentro da pasta **Cinel_Lisboa** criamos três sub-pastas com o nome de **IT**, **HR** e **Finance**. Da mesma maneira que criámos as pastas iniciais.
+
+<img src="https://github.com/user-attachments/assets/5511bd54-cf72-4e01-a930-ffaad45afded" width="650">
+
+De seguida, criamos dois grupos dentro de **IT** com o nome de **IT_Admins** e **IT_Analysts**. Ambos de scope **Global** e type **Security**.
+
+<img src="https://github.com/user-attachments/assets/bf5a6829-f359-448a-8cb4-5d075d1c9a8f" width="650">
+
+<img src="https://github.com/user-attachments/assets/ff09e7f6-dcbb-41fb-8aaf-e1ab786cf610" width="650">
+
+Para criar um utilizador na pasta **IT** clicamos com o botão direito, clicamos em **New** e de seguida **User**.
+
+<img src="https://github.com/user-attachments/assets/4704a36d-9825-4b3b-a00c-e21c7b8c04a8" width="650">
+
+O nome do novo User será **João Silva** e o User Logon name será **jsilva**.
+
+<img src="https://github.com/user-attachments/assets/f5f14b02-856b-42b0-8c20-f7e7e428101a" width="650">
+
+De seguida criamos uma password e marcamos a opção **User must change password at next logon**.
+
+<img src="https://github.com/user-attachments/assets/3bc50538-17c2-400f-a4a2-b8a30dd0c2e9" width="650">
+
+Para juntarmos um User a um grupo clicamos com o botão direito emn cima do User e clicamos **Add to a group...**.
+
+<img src="https://github.com/user-attachments/assets/384e0b9e-8ea3-4873-b180-621325b9651c" width="650">
+
+<img src="https://github.com/user-attachments/assets/e2c3367e-ac5c-497c-931e-3fa33fdc5e01" width="650">
 
