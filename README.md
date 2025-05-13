@@ -418,7 +418,7 @@ De seguida criamos uma password e marcamos a opção **User must change password
 
 <img src="https://github.com/user-attachments/assets/3bc50538-17c2-400f-a4a2-b8a30dd0c2e9" width="650">
 
-Para juntarmos um User a um grupo clicamos com o botão direito emn cima do User e clicamos **Add to a group...**.
+Para juntarmos um User a um grupo clicamos com o botão direito em cima do User e clicamos **Add to a group...**.
 
 <img src="https://github.com/user-attachments/assets/384e0b9e-8ea3-4873-b180-621325b9651c" width="650">
 
