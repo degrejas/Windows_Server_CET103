@@ -29,7 +29,7 @@ Manual de criação de um servidor Windows para CET103.
 
 - [Active Directory](#Active-Directory)
 
-- [Group Policy Objects(GPO)](#Group-Policy-Objects)
+- [Group Policy Objects (GPO)](#Group-Policy-Objects-(GPO))
 
 ## Manual
 ### Criação de uma máquina virtual
