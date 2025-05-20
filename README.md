@@ -29,6 +29,8 @@ Manual de criação de um servidor Windows para CET103.
 
 - [Active Directory](#Active-Directory)
 
+- [Group Policy Objects(GPO)](#Group-Policy-Objects)
+
 ## Manual
 ### Criação de uma máquina virtual
 É necessário um software de virtualização para criar uma máquina virtual (virtual machine), neste caso irá ser utilizado o VirtualBox.
@@ -423,4 +425,16 @@ Para juntarmos um User a um grupo clicamos com o botão direito em cima do User 
 <img src="https://github.com/user-attachments/assets/384e0b9e-8ea3-4873-b180-621325b9651c" width="650">
 
 <img src="https://github.com/user-attachments/assets/e2c3367e-ac5c-497c-931e-3fa33fdc5e01" width="650">
+
+### Group Policy Objects (GPO)
+
+Para começar iremos a **tools** e de seguida **Group Policy Management**.
+
+<img src="https://github.com/user-attachments/assets/e3108f6a-2c0d-41e9-b61c-a50a5d7ae7a8" width="650">
+
+Vamos até **Group Policy Objects** e clicamos com o botão direito do rato, de seguida **New**.
+Escolhemos um nome, neste caso será **DC-Segurança**.
+
+<img src="https://github.com/user-attachments/assets/3c49636a-2395-4ead-9a6d-459c98b04fd7" width="650">
+
 
