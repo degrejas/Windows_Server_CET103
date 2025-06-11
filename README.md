@@ -509,4 +509,4 @@ O Active Directory (AD) é um serviço de diretório da Microsoft, uma espécie 
 <!-- USAGE EXAMPLES -->
 ## Créditos
 
-Manual realiazdo por Daniel Egrejas.
+Manual realizado por Daniel Egrejas.
