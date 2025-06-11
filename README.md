@@ -92,56 +92,67 @@ Depois de instalar o sistema operativo será necessário `reiniciar` a máquina 
 > [!IMPORTANT]
 > **RAID 5** é uma tecnologia de armazenamento que junta vários discos rígidos (HDDs ou SSDs) para funcionarem como um só sistema. Este tipo de RAID oferece desempenho, capacidade de armazenamento e tolerância a falhas.
 
-Antes de se iniciar a máquina virtual, vamos a **armazenamento**, clicamos no ícone com um mais e escolhemos **Add SCSI Controller**.
-
-<img src="https://github.com/user-attachments/assets/bfe74f84-3689-40f2-9434-8ffe003fbf82" width="650">
-
-Clicamos em **Add Hard Disk**, e escolhemos **Create new disk**.
-
-<img src="https://github.com/user-attachments/assets/684e5d8c-8937-49b8-94ea-61d2052f087b" width="650">
-
-<img src="https://github.com/user-attachments/assets/b720a12f-9492-425f-bbbe-51aac99909f3" width="650">
-
-<img src="https://github.com/user-attachments/assets/7deff27d-340d-4c53-b837-1ccc4d335e34" width="650">
-
-De seguida iniciamos a máquina virtual. No server manager clicamos em **Tools** e de seguida **Computer Management**.
-Iremos para **Storage** e em seguida **Disk Management**, onde conseguimos ver as partições.
-
-<img src="https://github.com/user-attachments/assets/39f9a2a7-6e98-4f3e-b12b-c67887b151d3" width="650">
-
-Nos discos não inicializados clicamos com o botão direito do rato e escolhemos a opção **Online**. Fazemos o mesmo para os restantes discos que se encontram offline.
-
-<img src="https://github.com/user-attachments/assets/c5bf4828-3d79-4200-8cbf-0b9a580d611a" width="650">
-
+Antes de iniciar a máquina virtual, vamos a `armazenamento`, clicamos no ícone com um mais **(+)** e escolhemos `Add SCSI Controller`.
+<br>
+<img src="images/9.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+Clicamos em `Add Hard Disk`, e escolhemos `Create new disk`.
+<br>
+<img src="images/10.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<img src="images/11.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<img src="images/12.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+De seguida iniciamos a máquina virtual.
+No server manager clicamos em `Tools` e em `Computer Management`.
+Iremos a `Storage` e em seguida `Disk Management`, onde conseguimos ver as partições.
+<br>
+<img src="images/13.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+Nos discos não inicializados clicamos com o botão direito do rato e escolhemos a opção `Online`.
+Fazemos o mesmo para os restantes discos que se encontram offline.
+<br>
+<img src="images/14.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
 De seguida com o botão direito do rato clicamos no disco e escolhemos a opção **Initialize Disk**, selecionamos todos os discos e a opção **GPT (GUID Partition Table)**.
-
-<img src="https://github.com/user-attachments/assets/d7f87fb4-d9ba-4033-9f35-aabb75955efb" width="650">
-
-<img src="https://github.com/user-attachments/assets/9fa29599-0fa3-40f5-8413-09d56f2fb6d3" width="650">
-
-Com o botão direito do rato clicamos num disco não alocado e escolhemos a opção **Convert to Dynamic Disk**, selcionamos os discos e clicamos **Ok**.
-
-<img src="https://github.com/user-attachments/assets/c495e2a9-48a0-4d03-9ec8-1a0c74595111" width="650">
-
-<img src="https://github.com/user-attachments/assets/a144fefe-7d05-4e0c-81a0-c017f6f78867" width="650">
-
-Com obotão direito do rato cliamos sobre um dos discos e escolhemos a opção **New RAID-5 Volume...** para inicar o assistente.
-
-<img src="https://github.com/user-attachments/assets/53e996b5-0641-4fc7-bc70-1ac257550d86" width="650">
-
-Iremos agora esxcolher os discos que queremos que façam parte do RAID, selcionamos os discos e clicamos **Next**.
-E de seguida escolhemos a letra do novo volume.
-
-<img src="https://github.com/user-attachments/assets/53201ea4-2c2b-425f-83b9-7070dec11889" width="650">
-
-<img src="https://github.com/user-attachments/assets/c85d9798-02a9-4ad2-bafc-fa14de43e944" width="650">
-
-Definimos as opções de formatação, no final o volume RAID 5 irá ser entrar no processo de formatação e sincronização.
-
-<img src="https://github.com/user-attachments/assets/ec23e9cf-248b-4056-bb67-f2ad3beee330" width="650">
-
-<img src="https://github.com/user-attachments/assets/7ed88b89-2f17-4621-b485-ce9e9eea611c" width="650">
-
+<br>
+<img src="images/15.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<img src="images/16.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+Com o botão direito do rato clicamos num disco não alocado e escolhemos a opção `Convert to Dynamic Disk`, selcionamos os discos e clicamos `Ok`.
+<br>
+<img src="images/17.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<img src="images/18.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+Com obotão direito do rato cliamos sobre um dos discos e escolhemos a opção `New RAID-5 Volume...` para inicar o assistente.
+<br>
+<img src="images/19.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+Iremos agora escolher os discos que queremos que façam parte do RAID, selcionamos os discos e clicamos `Next`.
+Escolhemos a letra do novo volume.
+<br>
+<img src="images/20.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<img src="images/21.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+Definimos as opções de formatação, no final o volume RAID 5 irá entrar no processo de formatação e sincronização.
+<br>
+<img src="images/22.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<img src="images/23.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
 ### Configuração do servidor
 
 Neste passo é necessário mudar o nome do servidor e atribuir um sufixo DNS.
