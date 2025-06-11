@@ -39,7 +39,6 @@ Manual de criação e configuração de um servidor Windows Server 2019 para CET
 <br>
 Dentro do VirtualBox, para criar uma máquina virtual de um Windows Server 2019, clicar na opção `Nova`.
 <br>
-<br>
 <img src="images/1.png" alt="opcao nova" style="display: block; margin: 0 auto;">
 <br>
 <br>
