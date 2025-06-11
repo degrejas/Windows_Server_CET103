@@ -65,7 +65,6 @@ Será necessário configurar o sistema operativo escolhido, neste caso irá ser 
 <br>
 <br>
 ### Instalação do Sistema Operativo
-
 <img src="images/4.png" alt="opcao nova" style="display: block; margin: 0 auto;">
 <br>
 <br>
@@ -88,11 +87,10 @@ Depois de instalar o sistema operativo será necessário `reiniciar` a máquina 
 <img src="images/8.png" alt="opcao nova" style="display: block; margin: 0 auto;">
 <br>
 <br>
-## Configurar o servidor
 
 ### Configuração RAID 5
-
-**RAID 5** é uma tecnologia de armazenamento que junta vários discos rígidos (HDDs ou SSDs) para funcionarem como um só sistema. Este tipo de RAID oferece desempenho, capacidade de armazenamento e tolerância a falhas.
+> [!IMPORTANT]
+> **RAID 5** é uma tecnologia de armazenamento que junta vários discos rígidos (HDDs ou SSDs) para funcionarem como um só sistema. Este tipo de RAID oferece desempenho, capacidade de armazenamento e tolerância a falhas.
 
 Antes de se iniciar a máquina virtual, vamos a **armazenamento**, clicamos no ícone com um mais e escolhemos **Add SCSI Controller**.
 
