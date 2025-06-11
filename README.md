@@ -45,7 +45,7 @@
         <li><a href="#criação-de-grupos-e-utilizadores">Criação de grupos e utilizadores</a></li>
         <li><a href="#group-policy-objects">Group Policy Objects</a></li>
       </ul>
-    <li><a href="#Creditos">Créditos</a></li>
+    <li><a href="#creditos">Créditos</a></li>
   </ol>
 </details>
 
