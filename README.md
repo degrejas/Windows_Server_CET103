@@ -35,11 +35,11 @@
       <li><a href="#domain-service">Domain Service</a></li>
         <li><a href="#dns">DNS</a></li>
       <li><a href="#dhcp">DHCP</a></li>
-      <li><a href="#installation">NIC Teaming</a></li>
+      <li><a href="#nic-teaming">NIC Teaming</a></li>
       </ul>
       </li>
     <li><a href="#configuração-do-raid-5">Configuração do RAID 5</a></li>
-    <li><a href="#contributing">Server Backup</a></li>
+    <li><a href="#server-backup">Server Backup</a></li>
     <li><a href="#license">Segundo DC</a></li>
     <li><a href="#contact">Configuração do Active Directory</a></li>
     <ul>
@@ -288,6 +288,162 @@ O DNS (Domain Name System) é como se fosse a lista telefónica da Internet. Em 
 
   ## DHCP
 
+O DHCP (Dynamic Host Configuration Protocol) é um protocolo de rede que atribui automaticamente endereços IP e outras informações de configuração de rede a dispositivos numa rede.
+
+<div align="center">
+    <img src="images/62.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/63.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/64.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/65.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/66.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/67.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/68.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/69.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/70.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/71.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/72.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/73.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/74.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/75.png" alt="Logo" width="567" height="475">
+  </a>
+
+
+  ## NIC Teaming
+
+NIC Teaming, também conhecido como agregação de ligações (link aggregation), agregação de portas (port aggregation), bonding de NICs, ou ainda Agrupamento de NICs (termo da Microsoft), é uma técnica utilizada em sistemas operativos (principalmente Windows Server, mas também noutros como Linux) que permite combinar múltiplas placas de rede físicas (NICs) num único servidor, para que funcionem como uma única interface de rede lógica.
+
+<div align="center">
+    <img src="images/76.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/77.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/78.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/79.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/80.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/81.png" alt="Logo" width="567" height="475">
+  </a>
+
+
+## Configuração do RAID 5
+
+RAID é o acrónimo para Redundant Array of Inexpensive Disks (ou, mais modernamente, Redundant Array of Independent Disks). É uma tecnologia de armazenamento de dados que permite combinar vários discos rígidos (HDDs ou SSDs) numa única unidade lógica, com o objetivo de melhorar o desempenho, a redundância ou ambos.
+
+O RAID 5 é um dos níveis de RAID mais comuns e populares em ambientes empresariais de pequena e média dimensão, equilibrando bem desempenho, tolerância a falhas e eficiência de armazenamento.
+
+<div align="center">
+    <img src="images/47.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/48.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/49.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/50.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/51.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/52.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/53.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/54.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/55.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/56.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/57.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/58.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/59.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/60.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/61.png" alt="Logo" width="567" height="475">
+  </a>
+
+
+  ## Server Backup
 
   
 <!-- USAGE EXAMPLES -->
