@@ -8,42 +8,48 @@
   <h3 align="center">Windows Server 2019</h3>
   <h4 align="center">Manual CET 103</h4>
 
-  <p align="center">
-  </p>
+  <p align="center">Manual de criação e configuração do Windows Server 2019</p>
 </div>
 
 
 
 <!-- TABLE OF CONTENTS -->
 <details>
-  <summary>Table of Contents</summary>
+  <summary>Índice</summary>
   <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
+     <li>
+      <a href="#sobre-o-manual">Sobre o manual</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
+      <a href="#about-the-project">Criação e configuração da Máquina Virtual</a>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
+    <li>
+      <a href="#getting-started">Instalação e configuração do Sistema Operativo</a>
+    </li>
+    <li><a href="#usage">Configuração do RAID 5</a></li>
+    <li><a href="#roadmap">Configuração do servidor</a>
+    <ul>
+        <li><a href="#prerequisites">Active Directory</a></li>
+        <li><a href="#installation">DNS</a></li>
+      <li><a href="#installation">DHCP</a></li>
+      <li><a href="#installation">NIC Teaming</a></li>
+      </ul>
+      </li>
+    <li><a href="#contributing">Server Backup</a></li>
+    <li><a href="#license">Segundo DC</a></li>
+    <li><a href="#contact">Configuração do Active Directory</a></li>
+    <ul>
+        <li><a href="#prerequisites">Criação de grupos e utilizadores</a></li>
+        <li><a href="#installation">Group Policy Objects</a></li>
+      </ul>
+    <li><a href="#acknowledgments">Adição de um client</a></li>
   </ol>
 </details>
 
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+## Sobre o manual
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
