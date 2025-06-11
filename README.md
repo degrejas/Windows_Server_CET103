@@ -40,13 +40,11 @@
       </li>
     <li><a href="#configuração-do-raid-5">Configuração do RAID 5</a></li>
     <li><a href="#server-backup">Server Backup</a></li>
-    <li><a href="#license">Segundo DC</a></li>
-    <li><a href="#contact">Configuração do Active Directory</a></li>
+    <li><a href="#configuração-do-active-directory">Configuração do Active Directory</a></li>
     <ul>
-        <li><a href="#prerequisites">Criação de grupos e utilizadores</a></li>
-        <li><a href="#installation">Group Policy Objects</a></li>
+        <li><a href="#criação-de-grupos-e-utilizadores">Criação de grupos e utilizadores</a></li>
+        <li><a href="#group-policy-objects">Group Policy Objects</a></li>
       </ul>
-    <li><a href="#acknowledgments">Adição de um client</a></li>
   </ol>
 </details>
 
@@ -445,7 +443,68 @@ O RAID 5 é um dos níveis de RAID mais comuns e populares em ambientes empresar
 
   ## Server Backup
 
-  
+Server Backup (ou Cópia de Segurança de Servidor) refere-se ao processo de criar e armazenar cópias dos dados, aplicações e configurações de um servidor para poder recuperá-los em caso de perda de dados ou falha do sistema.
+
+<div align="center">
+    <img src="images/82.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/83.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/84.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/85.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/86.png" alt="Logo" width="567" height="475">
+  </a>
+
+
+## Configuração do Active Directory
+
+O Active Directory (AD) é um serviço de diretório da Microsoft, uma espécie de base de dados centralizada que organiza e gere todos os recursos e utilizadores numa rede baseada em Windows.
+
+
+### Criação de grupos e utilizadores
+
+<div align="center">
+    <img src="images/87.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/88.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/89.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/90.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/97.png" alt="Logo" width="567" height="475">
+  </a>
+
+
+### Group Policy Objects
+
+<div align="center">
+    <img src="images/98.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/99.png" alt="Logo" width="567" height="475">
+  </a>
+
+
 <!-- USAGE EXAMPLES -->
 ## Usage
 
