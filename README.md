@@ -24,20 +24,21 @@
       <a href="#software-de-virtualização">Software de virtualização</a>
     </li>
     <li>
-      <a href="#about-the-project">Criação e configuração da Máquina Virtual</a>
+      <a href="#criação-e-configuração-da-máquina-virtual">Criação e configuração da máquina virtual</a>
     </li>
     <li>
-      <a href="#getting-started">Instalação e configuração do Sistema Operativo</a>
+      <a href="#instalação-e-configuração-do-sistema-operativo">Instalação e configuração do Sistema Operativo</a>
     </li>
-    <li><a href="#usage">Configuração do RAID 5</a></li>
     <li><a href="#roadmap">Configuração do servidor</a>
     <ul>
-        <li><a href="#prerequisites">Active Directory</a></li>
-        <li><a href="#installation">DNS</a></li>
-      <li><a href="#installation">DHCP</a></li>
+        <li><a href="#active-directory">Active Directory</a></li>
+      <li><a href="#domain-service">Domain Service</a></li>
+        <li><a href="#dns">DNS</a></li>
+      <li><a href="#dhcp">DHCP</a></li>
       <li><a href="#installation">NIC Teaming</a></li>
       </ul>
       </li>
+    <li><a href="#configuração-do-raid-5">Configuração do RAID 5</a></li>
     <li><a href="#contributing">Server Backup</a></li>
     <li><a href="#license">Segundo DC</a></li>
     <li><a href="#contact">Configuração do Active Directory</a></li>
@@ -63,50 +64,232 @@ Foi utilizado o software VirtualBox para a criação e configuração do Windows
 
 <div align="center">
   <a href="https://www.virtualbox.org">
-    <img src="" alt="Logo" width="100" height="100">
+    <img src="https://raw.githubusercontent.com/degrejas/Windows_Server_CET103/refs/heads/main/images/virtualboxlogo.avif" alt="Logo" width="100" height="100">
   </a>
 
 <!-- GETTING STARTED -->
-## Getting Started
+## Criação e configuração da máquina virtual
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+Dentro do VirtualBox escolhemos a opção `Nova`.
 
-### Prerequisites
+<div align="center">
+    <img src="images/1.png" alt="Logo" width="567" height="122">
+  </a>
+  
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+Damos o nome á máquina, será `Maquina_de_teste` **(1)**, escolhemos a pasta onde ficará guardada **(2)** e escolhemos o .iso do Sistema Operativo desejado **(3)**.
 
-### Installation
+<div align="center">
+    <img src="images/2.png" alt="Logo" width="657" height="392">
+  </a>
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+<br>
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+Em termos de Hardware a máquina irá ter `7 GB de RAM`, `4 processadores` e `50 GB de armazenamento`.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<div align="center">
+    <img src="images/3.png" alt="Logo" width="619" height="372">
+  </a>
+
+  <div align="center">
+    <img src="images/4.png" alt="Logo" width="625" height="378">
+  </a>
+
+Podemos iniciar a máquina virtual.
+
+## Instalação e configuração do Sistema Operativo
+
+Iniciamos a máquina virtual e fazemos o setup do Windows Server 2019.
+
+<div align="center">
+    <img src="images/5.png" alt="Logo" width="500" height="419">
+  </a>
+
+<div align="center">
+    <img src="images/6.png" alt="Logo" width="500" height="419">
+  </a>
+
+<div align="center">
+    <img src="images/7.png" alt="Logo" width="540" height="453">
+  </a>
+  
+<div align="center">
+    <img src="images/8.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/9.png" alt="Logo" width="567" height="475">
+  </a>
 
 
+## Configuração do servidor
 
+Com o SO instalado a primeira coisa a fazer é mudar o nome do servidor e atribuir um sufixo DNS.
+
+<div align="center">
+    <img src="images/10.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/11.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/12.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/13.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/14.png" alt="Logo" width="567" height="475">
+  </a>
+  
+Alteramos o nome da rede interna e da rede externa e atribuimos um IP á rede interna.
+
+<div align="center">
+    <img src="images/15.png" alt="Logo" width="567" height="475">
+  </a>
+
+  <div align="center">
+    <img src="images/16.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/17.png" alt="Logo" width="567" height="475">
+  </a>
+
+  <div align="center">
+    <img src="images/18.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/19.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/20.png" alt="Logo" width="567" height="475">
+  </a>
+
+  <div align="center">
+    <img src="images/21.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/22.png" alt="Logo" width="567" height="475">
+  </a>    
+
+  <div align="center">
+    <img src="images/23.png" alt="Logo" width="567" height="475">
+  </a>
+
+    <div align="center">
+    <img src="images/24.png" alt="Logo" width="567" height="475">
+  </a>
+
+  
+  ## Active Directory
+
+O Active Directory (AD) é um serviço de diretório desenvolvido pela Microsoft, fundamental para o gerenciamento de redes Windows em ambientes corporativos. Pense nele como uma central de informações e controle para tudo que existe na sua rede.
+
+<div align="center">
+    <img src="images/25.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/26.png" alt="Logo" width="567" height="475">
+  </a>
+
+  <div align="center">
+    <img src="images/27.png" alt="Logo" width="567" height="475">
+  </a>
+
+    <div align="center">
+    <img src="images/28.png" alt="Logo" width="567" height="475">
+  </a>
+
+  <div align="center">
+    <img src="images/29.png" alt="Logo" width="567" height="475">
+  </a>
+
+    <div align="center">
+    <img src="images/30.png" alt="Logo" width="567" height="475">
+  </a>
+
+
+## Domain Service
+
+<div align="center">
+    <img src="images/31.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/32.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/33.png" alt="Logo" width="567" height="475">
+  </a>
+
+  <div align="center">
+    <img src="images/34.png" alt="Logo" width="567" height="475">
+  </a>
+    
+  <div align="center">
+    <img src="images/35.png" alt="Logo" width="567" height="475">
+  </a>
+
+
+  ## DNS
+  
+O DNS (Domain Name System) é como se fosse a lista telefónica da Internet. Em vez de procurar um nome e obter um número de telefone, o DNS traduz nomes de domínio que são fáceis de ler para humanos (como www.google.com) em endereços IP numéricos que os computadores usam para comunicar.
+
+ <div align="center">
+    <img src="images/37.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/38.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/39.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/40.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/41.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/42.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/43.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/44.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/45.png" alt="Logo" width="567" height="475">
+  </a>
+
+<div align="center">
+    <img src="images/46.png" alt="Logo" width="567" height="475">
+  </a>
+
+
+  ## DHCP
+
+
+  
 <!-- USAGE EXAMPLES -->
 ## Usage
 
