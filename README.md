@@ -37,7 +37,6 @@ Manual de criação e configuração de um servidor Windows Server 2019 para CET
 > [!NOTE]
 > A instalação e configuração do Windows Server 2019 foi realizada num software de virtualização onde foi criada uma máquina virtual (virtual machine), neste caso irá ser utilizado o VirtualBox.
 <br>
-<br>
 Dentro do VirtualBox, para criar uma máquina virtual de um Windows Server 2019, clicar na opção `Nova`.
 <br>
 <br>
@@ -46,21 +45,24 @@ Dentro do VirtualBox, para criar uma máquina virtual de um Windows Server 2019,
 <br>
 Vamos dar um nome á máquina virtual, neste caso será `Maquina_de_teste` **(1)**, escolher o local onde irá estar guardado o conteúdo da máquina virtual **(2)** e escolher o ficheiro .iso **(3(imagem do sistema operativo escolhido))**.
 <br>
-<br>
 <img src="images/2.png" alt="opcao nova" style="display: block; margin: 0 auto;">
 <br>
 <br>
-Na secção do Hardware iremos configurar as especificações da máquina virtual, neste caso a máquina irá ter **7 gigabytes de memória** e **4 processadores**. Temos estes parâmetros para que a máquina não fique lenta.
-
-<img src="https://github.com/user-attachments/assets/e149f818-20b6-4740-93a4-35f699444995" width="650">
-
-Na secção Hard Disk iremos colocar o tamanho do disco pretendido (indicar quanto espaço queremos na nossa máquina). Para um bom funcionamento pelo menos **40 gigabytes** são necessários.
-
-<img src="https://github.com/user-attachments/assets/a3d36591-a80d-4adb-a226-a2cca9193a3b" width="650">
-
-De seguida clicamos em “Terminar” e a criação da máquina virtual estará completa.
-Para iniciar a máquina virtual clicar em “Iniciar”. A máquina irá iniciar.
-De seguida será necessário configurar o sistema operativo escolhido, neste caso irá ser o Windows server 2019.
+Na secção do Hardware iremos configurar as especificações da máquina virtual, neste caso a máquina irá ter `7 gigabytes de memória` e `4 processadores`.
+Temos estes parâmetros para que a máquina não fique lenta.
+<br>
+<img src="images/3.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+Na secção `Hard Disk` iremos colocar o tamanho do disco pretendido (indicar quanto espaço queremos na nossa máquina virtual).
+Para um bom funcionamento pelo menos **40 gigabytes** são necessários.
+<br>
+<img src="images/3.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+De seguida clicamos em `Terminar` e a criação da máquina virtual estará completa.
+Para iniciar a máquina virtual clicar em `Iniciar`. A máquina irá iniciar.
+Será necessário configurar o sistema operativo escolhido, neste caso irá ser o Windows server 2019.
 
 ### Instalação do Sistema Operativo
 
