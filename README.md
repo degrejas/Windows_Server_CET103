@@ -36,17 +36,22 @@ Manual de criação e configuração de um servidor Windows Server 2019 para CET
 ### Criação da máquina virtual
 > [!NOTE]
 > A instalação e configuração do Windows Server 2019 foi realizada num software de virtualização onde foi criada uma máquina virtual (virtual machine), neste caso irá ser utilizado o VirtualBox.
-
+<br>
+<br>
 Dentro do VirtualBox, para criar uma máquina virtual de um Windows Server 2019, clicar na opção `Nova`.
+<br>
 <br>
 <br>
 <img src="images/1.png" alt="opcao nova" style="display: block; margin: 0 auto;">
 <br>
 <br>
+<br>
 Vamos dar um nome á máquina virtual, neste caso será `Maquina_de_teste` **(1)**, escolher o local onde irá estar guardado o conteúdo da máquina virtual **(2)** e escolher o ficheiro .iso **(3(imagem do sistema operativo escolhido))**.
 <br>
 <br>
+<br>
 <img src="images/2.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
 <br>
 <br>
 Na secção do Hardware iremos configurar as especificações da máquina virtual, neste caso a máquina irá ter **7 gigabytes de memória** e **4 processadores**. Temos estes parâmetros para que a máquina não fique lenta.
