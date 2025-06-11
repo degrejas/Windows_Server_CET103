@@ -54,7 +54,7 @@ Temos estes parâmetros para que a máquina não fique lenta.
 <br>
 <br>
 Na secção `Hard Disk` iremos colocar o tamanho do disco pretendido (indicar quanto espaço queremos na nossa máquina virtual).
-Para um bom funcionamento pelo menos **40 gigabytes** são necessários.
+Para um bom funcionamento pelo menos `40 gigabytes` são necessários.
 <br>
 <img src="images/3.png" alt="opcao nova" style="display: block; margin: 0 auto;">
 <br>
@@ -62,25 +62,32 @@ Para um bom funcionamento pelo menos **40 gigabytes** são necessários.
 De seguida clicamos em `Terminar` e a criação da máquina virtual estará completa.
 Para iniciar a máquina virtual clicar em `Iniciar`. A máquina irá iniciar.
 Será necessário configurar o sistema operativo escolhido, neste caso irá ser o Windows server 2019.
-
+<br>
+<br>
 ### Instalação do Sistema Operativo
 
-<img src="https://github.com/user-attachments/assets/5a7485cc-a5c5-4e4b-a0e4-7ff99b9f3d53" width="650">
-
-<img src="https://github.com/user-attachments/assets/a4556d2d-5ca4-44b2-a995-8cad3fe4cbdf" width="650">
-
-Durante o setup irão aparecer várias opções, mas a que é preciso é a opção **Datacenter Evaluation (Desktop Experience)** para criar um servidor com interface gráfica.
-
-<img src="https://github.com/user-attachments/assets/4c39ec05-0a30-4b04-99ca-a912e903d957" width="650">
-
-De seguida aceita-se os termos de licensa, escolhe-se a opção **custom: Install Windows only (advanced)** e escolhemos a **drive** desejada onde queremos **instalar o sistema operativo**. E será instalado o sistema operativo.
-
-<img src="https://github.com/user-attachments/assets/2556019d-e3ef-4387-a0ab-17e31fde149d" width="650">
-
-Depois de instalar o sistema operativo será necessário **reiniciar** a máquina virtual.
-
-<img src="https://github.com/user-attachments/assets/4718da7e-069d-4468-8e5a-4a84d2c1955b" width="650">
-
+<img src="images/4.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+<img src="images/5.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+Durante o setup irão aparecer várias opções, mas a escolhida é a opção `Datacenter Evaluation (Desktop Experience)` para criar um servidor com interface gráfica.
+<br>
+<img src="images/6.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+De seguida aceitamos os termos de licensa, escolhe-se a opção `custom: Install Windows only (advanced)` e escolhemos a `drive` desejada onde queremos `instalar o sistema operativo`.
+Será instalado o sistema operativo.
+<br>
+<img src="images/7.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
+Depois de instalar o sistema operativo será necessário `reiniciar` a máquina virtual.
+<br>
+<img src="images/8.png" alt="opcao nova" style="display: block; margin: 0 auto;">
+<br>
+<br>
 ## Configurar o servidor
 
 ### Configuração RAID 5
